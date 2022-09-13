@@ -19,6 +19,7 @@ int main() {
     int one;
     int zero;
 
+    cout << "Введите число:";
     cin >> num;
 
     while (num > 0) {
