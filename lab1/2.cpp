@@ -25,7 +25,7 @@ int sum_c(int num) {
     return sum_count;
 }
 
-
+/*
 int main() {
     int num;
     cout << "Введите число >> ";
@@ -37,4 +37,4 @@ int main() {
 
     cout << "Количество цифр в указаном числе - " << num_c(num) << "\n";
     cout << "Сумма цифр в указаном числе - " << sum_c(num);
-}
+}*/
