@@ -3,6 +3,10 @@
 
 // Поиск первой слева цифры
 int first_num(int num) {
+    if (num < 0){
+        num *= -1;
+    }
+
     while (num / 10 > 0) {
         num /= 10;
     }
@@ -11,6 +15,9 @@ int first_num(int num) {
 
 // Поиск последней цифры
 int last_num(int num){
+    if (num < 0){
+        num *= -1;
+    }
     return num % 10;
 }
 
