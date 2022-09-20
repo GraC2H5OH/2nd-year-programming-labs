@@ -12,15 +12,15 @@ namespace test31
 		
 		TEST_METHOD(TestMethod1)
 		{
-			Assert::AreEqual(bit_check(129, 0), 1);
+			Assert::AreEqual(bit_check(129, 0), 0);
 		}
 		TEST_METHOD(TestMethod2)
 		{
-			Assert::AreEqual(bit_check(129, 1), 0);
+			Assert::AreEqual(bit_check(129, 1), 1);
 		}
 		TEST_METHOD(TestMethod3)
 		{
-			Assert::AreEqual(bit_check(-129, 0), 1);
+			Assert::AreEqual(bit_check(-129, 0), 0);
 		}
 		TEST_METHOD(TestMethod5)
 		{
