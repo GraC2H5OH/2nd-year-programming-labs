@@ -1,0 +1,1 @@
+double sum_of_elements(double* arr, int size);

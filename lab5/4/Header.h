@@ -1,0 +1,1 @@
+bool is_zero(double* arr1, int size);

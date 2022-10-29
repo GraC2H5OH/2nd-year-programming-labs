@@ -1,0 +1,1 @@
+bool near(double* arr1, int size);
