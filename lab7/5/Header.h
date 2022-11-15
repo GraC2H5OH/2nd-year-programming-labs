@@ -1,0 +1,1 @@
+double ratio(const double* a, int length);

@@ -1,0 +1,1 @@
+bool is_zero(const int* a, int length);
